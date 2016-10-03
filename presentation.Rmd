@@ -11,12 +11,14 @@ output:
 header-includes: 
 - \usepackage{graphicx}
 - \beamertemplatenavigationsymbolsempty
-- \usefonttheme{professionalfonts}
-- \renewcommand{\familydefault}{\sfdefault}
+- \usepackage{fontspec}
+- \setmainfont{Source Serif Pro}
+- \setsansfont{Source Sans Pro}
+- \setmonofont{Source Code Pro}
 - \usepackage{xcolor}
 - \definecolor{foreground}{RGB}{0,0,0}
-- \definecolor{background}{RGB}{255,255,255}
-- \definecolor{title}{RGB}{0,106,255}
+- \definecolor{background}{RGB}{245,245,245}
+- \definecolor{title}{RGB}{14,146,0}
 - \definecolor{gray}{RGB}{155,155,155}
 - \definecolor{subtitle}{RGB}{192,0,255}
 - \definecolor{hilight}{RGB}{102,255,204}
@@ -32,19 +34,9 @@ header-includes:
 - \usepackage[normalem]{ulem}
 ---
 
-## Science is the pursuit of pure truth, and the systematizing of it
- 
-![P.T. Barnum](https://upload.wikimedia.org/wikipedia/commons/8/8b/PT_Barnum_1851-crop.jpg) 
+## Expectations for modern scientists
 
-## If science is the pursuit of truth...
-
-then we should probably try to avoid being wrong
-
-
-
-## But mistakes are nearly inevitible
-
-Modern science demands competence in:
+Competence in:
 
 - programming
 - data management
@@ -52,15 +44,6 @@ Modern science demands competence in:
 - workflow management
 
 **But, academic training is still catching up**
-
-
-
-## A realistic goal:
-
-Try hard to avoid mistakes. Try harder to identify your mistakes and ensure that when you find one: 
-
-- you know exactly what it was, and 
-- you know exactly when and how it is fixed
 
 
 
@@ -72,7 +55,7 @@ Try hard to avoid mistakes. Try harder to identify your mistakes and ensure that
 
 ## Today: best and worst practices (BP & WP) in scientific computing
 
-**TLDR**: best practices exist for modern science, but they require a bit of effort. It is our responsibility as scientists to adopt best practices to minimize errors and maintain reproducibility.
+**TLDR**: best practices exist for modern science, but requre effort. Use them to minimize errors and maintain reproducibility.
 
 
 
